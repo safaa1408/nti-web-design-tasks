@@ -1,0 +1,226 @@
+/* reset */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* global style */
+.container-width{
+    width: 80%;
+    margin: 0% auto;
+}
+.grey-text{
+    color: rgb(155, 155, 155);
+}
+.white-text{
+    color: white;
+}
+.orange-text{
+    color :rgb(243, 113, 66)
+}
+.bg-section{
+    color: grey;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.clear{
+    clear: both;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float:left;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 100%;
+    padding: 4.5% 0;
+}
+.button-style{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    padding: 3%;
+}
+input{
+    border:0;
+    outline: 0;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    display: inline-block;
+    width: 80%;
+    margin: 0 10%;
+    padding: 5%;
+}
+.dark-text{
+    color: rgb(61, 61, 61);
+}
+.tab{
+    display: block;
+    padding: 25%;
+    border: 0;
+    color: white;
+    font-size: 22px;
+    border-radius: 2%;
+}
+.orange-bg{
+    background-color: rgb(243, 113, 66);
+}
+.grey-bg{
+    background-color: rgb(61, 61, 61);
+}
+.light-bg{
+    background-color: #F6F6F6;
+}
+/* custom style */
+nav{
+    background-color: black;
+    color: white;
+    padding: 1.5%;
+}
+nav ul{
+    width: 50%;
+}
+nav li{
+    display: inline-block;
+    margin-left: 10%;
+}
+.bg-img hr{
+    width: 13%;
+}
+.bg-img{
+    background-image: url(../images/bg-sec1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card1{
+    width: 40%;
+}
+.card1 h2{
+    font-size: 100px;
+    margin-top: 10%;
+}
+.card1 h3{
+    font-size: 27px;
+}
+.card1 p{
+    margin: 8% 0%;
+}
+.bg-img form{
+    width: 35%;
+    background-color: white;
+    margin-top:12%;
+}
+form p{
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(211, 210, 210);
+    padding: 4%;
+    border-radius: 4%;
+}
+form button{
+    width: 100%;
+    padding: 5%;
+    background-color: rgb(243, 113, 66);
+    border: 0px;
+    color: white;
+    margin-top:10%
+}
+.container2{
+    background-color: rgb(236, 233, 233);
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 2% 0;
+}
+.card2{
+    width: 35%;
+}
+.social-media{
+    width:55%;
+    font-size: 32px;
+}
+.social-media i{
+    margin-left: 7%;
+}
+.container3{
+    padding: 7.5% 0;
+}
+.building-img{
+    width: 35%;
+    margin-left: 3%;   
+}
+.card-img{
+    width: 100%;
+    -webkit-box-reflect: below;
+}
+.tab-button{
+    width: 20%;
+}
+.tab2{
+    margin: 0.5% 0;
+}
+.tab-para{
+    width: 35%;
+    margin-right: 5%;
+}
+.tab-para button{
+    padding: 5%;
+    background-color: rgb(243, 113, 66);
+    border: 0;
+    border-radius: 2%;
+    color: white;
+}
+.tab-para h3{
+    font-size: 25px;
+}
+.tab-para p{
+    font-size: 18px;
+    margin: 15% 0;
+}
+.sub-img{
+    width: 40%;
+    padding: 15% 0;
+}
+.sub-img img{
+    width: 100%;
+    box-shadow: 0px 0px 20px 7px #b6b3b3;
+}
+.sub-para{
+    width: 45%;
+    padding: 12% 0;
+    margin-left: 15%;
+}
+.sub-para h3{
+    font-size: 25px;
+}
+.sub-para hr{
+    width: 15%;
+    margin: 5% 0;
+    border: 1.5px solid rgb(243, 113, 66);
+}
+.sub-para p{
+    font-size: 13px;
+}
+.cloud i{
+    color: rgb(243, 113, 66);
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 2%;
+    margin-right: 4%;
+    margin-top: 7%;
+}
+.cloud p{
+    padding: 0 15%;
+}

@@ -1,0 +1,88 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* global style */
+.d-inline-block{
+    display: inline-block;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 100%;
+}
+.aqua-text{
+    color: rgb(28, 177, 177);
+}
+hr{
+    width: 10%;
+    border-top: 4px solid black;
+}
+.card{
+    width: 27%;
+    margin-left:5%;
+    box-shadow: 0px 0px 10px 7px #c8c3c3;
+}
+.grey-text{
+    color: rgb(58, 57, 57);
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float:right;
+}
+.clear
+{
+    clear: both;
+}
+.top{
+    padding: 3%;
+    background-color: white;
+    font-size: 18px;
+}
+.top i{
+    margin-left: 5%;
+}
+.bot{
+    padding: 3%;
+    background-color: white;
+}
+.bot h2{
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.bot p{
+    font-size: 20px;
+    margin-top: 5%;
+    padding: 1.5%;
+}
+.mid-style{
+    height: 45%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+/* custom style */
+a{
+    display: inline-block;
+    text-decoration: none;
+    padding:15%;
+    margin-top: 40%;
+    color: white;
+    text-shadow: 2px 2px #312f2f;
+}
+.container{
+    background-color: rgb(226, 225, 225);
+    height: 625px;
+}
+.mid1{
+    background-image: url(../images/card1.jpg);
+}
+.mid2{
+    background-image: url(../images/card2.jpg);
+}
+.mid3{
+    background-image: url(../images/card3.jpg);
+}
