@@ -82,7 +82,9 @@ a{
 }
 .mid2{
     background-image: url(../images/card2.jpg);
+    padding: 38%;
 }
 .mid3{
     background-image: url(../images/card3.jpg);
+    padding: 38%;
 }
