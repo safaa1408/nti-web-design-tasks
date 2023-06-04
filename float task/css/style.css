@@ -62,8 +62,21 @@ hr{
     height: 45%;
     width: 100%;
     background-size: 100% 100%;
+    position: relative;
 }
-
+.img-style{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    top: 82%;
+    right: 4%;
+}
+.img-style img{
+    width: 100%;
+    height: 100%;
+}
 /* custom style */
 a{
     display: inline-block;
