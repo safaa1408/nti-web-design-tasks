@@ -64,6 +64,9 @@ input{
     margin: 0 10%;
     padding: 5%;
 }
+input:focus{
+    border-color: rgb(243, 113, 66);
+}
 .center-text{
     text-align: center;
 }
@@ -114,6 +117,9 @@ nav{
     background-color: black;
     color: white;
     padding: 1.5%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 nav ul{
     width: 50%;
@@ -212,7 +218,7 @@ form button{
 }
 .tab-para p{
     font-size: 18px;
-    margin: 15% 0;
+    margin: 3% 0;
 }
 .sub-list{
     padding: 2% 0;
@@ -236,11 +242,15 @@ form button{
 .cloud i{
     color: rgb(243, 113, 66);
     font-size: 15px;
+    display: inline-block;
     border: 2px solid;
     border-radius: 50%;
-    padding: 2%;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    line-height: 2.5;
     margin-right: 4%;
-    margin-top: 18%;
+    margin-top: 20%;
 }
 .cloud p{
     padding: 0 15%;
@@ -268,24 +278,27 @@ form button{
 }
 .awesome-icon i{
     color: rgb(243, 113, 66);
+    display: inline-block;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    line-height: 2.6;
     font-size: 15px;
     border: 2px solid;
     border-radius: 50%;
-    padding: 7%;
     font-size: 25px;
-    margin-top: 17%;
-    margin-bottom: 8%;
+    margin-bottom: 2%;
 }
 .awesome-icon p{
     margin: 8% 0;
 }
-.price-form{
+.price-list{
     width: 30%;
     margin-top: 2%;
     margin-bottom: 5%;
 }
-.price-form label{
-    display: block;
+.price-list li{
+    display: block;https://open.spotify.com/playlist/1ONgQHoMBhowWxzgtjGxu4
     width: 100%;
     border: 1px solid #b6b3b3;
     margin: 1px 0;
@@ -301,18 +314,18 @@ form button{
 .second-digit{
     font-size: 40px;
 }
-#empty-label1{
+#empty-list1{
     padding: 1%;
     margin:0;
 }
-#empty-label2{
+#empty-list2{
     padding: 1%;
     margin:0;
 }
-#dark-label1{
+#dark-list1{
     margin-bottom: 0;
 }
-#dark-label2{
+#dark-list2{
     margin-bottom: 0;
 }
 .basic p{
@@ -329,26 +342,10 @@ form button{
     padding: 1%;
     margin-left: 8%;
     margin-bottom: 0;
+    position: relative;
 }
 .reviews{
     padding: 5% 0;
-}
-.triangle {
-    width: 20%;
-    font-size: 30px;
-    margin-top: 0;
-    padding: 0;
-    color: #b6b3b3;
-    box-sizing: border-box;
-}
-.triangle1{
-    margin-left: 10%;
-}
-.triangle2{
-    margin-left: 13%;
-}
-.triangle3{
-    margin-left: 13%;
 }
 .customer{
     width: 15%;
@@ -360,17 +357,20 @@ form button{
 }
 .jeremy{
     margin-left: 9%;
+    margin-top: 2%;
     width: 7%;
 }
 .t-margin{
-    margin-top: 1%;
+    margin-top: 4%;
 }
 .john{
-    margin-left: 19%;
+    margin-left: 19.5%;
+    margin-top: 2%;
     width: 7%;
 }
 .susan{
-    margin-left: 19%;
+    margin-left: 19.5%;
+    margin-top: 2%;
     width: 7%;
 }
 .stylish-sec{
@@ -411,6 +411,9 @@ form button{
     outline: none;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
+.message-area textarea:focus{
+    border-color: rgb(243, 113, 66);
+}
 .contact-us button{
     padding: 1.5%;
     width: 18%;
@@ -426,4 +429,28 @@ footer .social-media{
 }
 footer p{
     margin-top: 1%;
+}
+.scroll-btn{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 1.5;
+    position: fixed;
+    bottom: 150px;
+    right: 50px;
+}
+.triangle-down{
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #F6F6F6;
+    position: absolute;
+    top: 100%;
+    left:10%;
 }
