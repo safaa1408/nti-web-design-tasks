@@ -1,0 +1,84 @@
+/* reset */
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+ul{
+    list-style: none;
+}
+/* global-style */
+/* custom style */
+header ul{
+    width: 35%;
+}
+header ul + p{
+    width: 60%;
+}
+.position-sticky{
+    z-index: 999 !important;
+}
+.slider-img-height{
+    height: calc(100vh - 124px);
+}
+.carousel-indicators{
+    bottom: calc(50% - 66px);
+    left: auto;
+    right: -12%;
+}
+.carousel-indicators [data-bs-target] {
+    height: 8px;
+    width: 8px;
+    transition-duration: 0.5;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+.carousel-indicators [data-bs-target]:hover{
+    background-color: transparent;
+    transform: scale(1.5);
+    border: 1px solid white;
+}
+.hover-div:hover.hover-div .hover-element{
+    color: #0D6EFD !important;
+}
+.icons-card{
+    top: 8%;
+}
+.bg-image{
+    background-image: url(/images/service-bg.jpg);
+    Background-attachment:fixed;
+    width: 100%;
+}
+.text-show-hover{
+    overflow: hidden;
+}
+.text-show-hover:hover .text-showed-hover{
+    display: block !important;
+}
+.our-work a:active{
+    color: #0D6EFD !important ;
+}
+.hover-picture-text-div{
+    bottom: 3%;
+    left: 5%;
+}
+.hover-picture-div:hover{
+    box-shadow: 0px 0px 3px 3px #ddd5d5;
+}
+.team-hover-div{
+    overflow:hidden;
+}
+.team-hoverd-div{
+    top: 76%;
+    transition-duration: .5s;
+}
+.team-hover-div:hover .team-hoverd-div{
+    top:35%;
+}
+.team-hover-div:hover h6{
+    border-bottom: none !important;
+}
+.team-hoverd-div:hover h5{
+    color: #0D6EFD !important;
+}
+.team-hoverd-div ul :hover a{
+    color: black !important;
+}
