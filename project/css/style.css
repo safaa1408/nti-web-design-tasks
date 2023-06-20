@@ -47,11 +47,11 @@ header ul + p{
     Background-attachment:fixed;
     width: 100%;
 }
-.text-show-hover{
-    overflow: hidden;
+.text-showed-hover{
+    transition-duration:.4s;
 }
 .text-show-hover:hover .text-showed-hover{
-    display: block !important;
+    top: 0 !important;
 }
 .our-work a:active{
     color: #0D6EFD !important ;
@@ -63,15 +63,15 @@ header ul + p{
 .hover-picture-div:hover{
     box-shadow: 0px 0px 3px 3px #ddd5d5;
 }
-.team-hover-div{
-    overflow:hidden;
-}
 .team-hoverd-div{
     top: 76%;
     transition-duration: .5s;
 }
 .team-hover-div:hover .team-hoverd-div{
-    top:35%;
+    top:41%;
+}
+.team-hover-div:hover .team-hoverd-div ul{
+    top: 70%
 }
 .team-hover-div:hover h6{
     border-bottom: none !important;
@@ -79,6 +79,17 @@ header ul + p{
 .team-hoverd-div:hover h5{
     color: #0D6EFD !important;
 }
+.custom-padding-bottom{
+    padding-bottom: 80px;
+}
+.team-hoverd-div ul{
+    top: 108%;
+    transition: 1s;
+}
 .team-hoverd-div ul :hover a{
     color: black !important;
+}
+form input:focus{
+    outline: 0;
+    box-shadow: 0px 0px 2px 3px #4b4a4a;
 }
