@@ -83,13 +83,101 @@ header ul + p{
     padding-bottom: 80px;
 }
 .team-hoverd-div ul{
-    top: 108%;
+    top: 90%;
     transition: 1s;
 }
 .team-hoverd-div ul :hover a{
     color: black !important;
 }
-form input:focus{
+.bg-dark form input:focus{
     outline: 0;
     box-shadow: 0px 0px 2px 3px #4b4a4a;
+}
+.no-boder-raduis-top{
+    border-top-left-radius: 0 !important;
+}
+.card-hover ul{
+    transition: linear 0.2s;
+}
+.card-hover:hover ul{
+    background-color: #0D6EFD !important;
+}
+.card-hover h5:hover{
+    color: #0D6EFD !important;
+}
+.card-hover:hover .progress-bar{
+    width: 100% !important;
+}
+.card-hover ul a :hover{
+    color: #b0cdf7b9 !important;
+}
+.card-body i{
+    transition: .5s;
+}
+.card-hover-icon:hover i{
+    transform: translatex(10px);
+}
+.card-hover img {
+    transition: .7s;
+}
+.card-hover:hover img{
+    transform: matrix(1.1, -0.08, 0.08, 1.2, 0, 0);
+}
+.partner-big-image {
+    filter: drop-shadow(-2px -2px 3px rgb(153, 153, 153));
+}
+.partner-small-image{
+    height: 75px;
+}
+.special-h{
+    height: 91px;
+}
+.big-icon{
+    color: #8f8c8c8f;
+    font-size: 90px;
+}
+.spical-margin{
+    margin-left: 50%;
+}
+.tiny-size{
+    font-size: 12px;
+}
+.hover-footer img:hover {
+    filter: brightness(50%);
+}
+.hover-footer h6 :hover{
+    color: #8a8787 !important;
+}
+footer button:hover{
+    background-color: #0D6EFD !important;
+    color: white !important;
+}
+.special-postision{
+    bottom: 7%;
+    right: 3%;
+    display: none;
+}
+.special-shadow{
+    box-shadow: 0px 1px 3px 1px #111111;
+}
+.bg-image-contact{
+    background-image: url(/images/abt-ban.jpg);
+    width: 100%;
+}
+.icon-position{
+    top: 28%;
+    left: 4%;
+}
+.contact-input{
+    outline: 0;
+}
+.contact-input :focus{
+    border-bottom: #0D6EFD !important;
+}
+.form-btn:hover{
+    background-color: black;
+}
+.icon-position-textarea{
+    top: 8%;
+    left: 1.2%;
 }

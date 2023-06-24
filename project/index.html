@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -56,7 +58,7 @@
     </header>
     <nav class="navbar navbar-expand-lg bg-white p-4 position-sticky top-0">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="/images/Trade-X-Logo.png">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,7 +67,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             HOME
                         </a>
                         <ul class="dropdown-menu border-0">
@@ -132,7 +134,7 @@
                         </ul>   
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="contact.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -272,28 +274,28 @@
                 <div class="col-12 col-sm-6 col-lg-3 d-flex align-items-center">
                     <i class="fa-solid fa-display text-primary fs-1 bg-white p-3 border-0 rounded me-4"></i>
                     <div class="pt-3">
-                        <h5>8000</h5>
+                        <h5 id="total-projects">8000</h5>
                         <p class="text-black-50">Total Projects</p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3 d-flex align-items-center">
                     <i class="fa-solid fa-trophy text-primary fs-1 bg-white p-3 border-0 rounded me-4"></i>
                     <div class="pt-3">
-                        <h5>810</h5>
+                        <h5 id="won-awards">810</h5>
                         <p class="text-black-50">Won Awards</p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3 d-flex align-items-center">
                     <i class="fa-solid fa-face-smile text-primary fs-1 bg-white p-3 border-0 rounded me-4"></i>
                     <div class="pt-3">
-                        <h5>2000</h5>
+                        <h5 id="happy-clients">2000</h5>
                         <p class="text-black-50">Happy Clients</p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3 d-flex align-items-center">
                     <i class="fa-solid fa-calendar-days text-primary fs-1 bg-white p-3 border-0 rounded me-4"></i>
                     <div class="pt-3">
-                        <h5>20</h5>
+                        <h5 id="years-experience">20</h5>
                         <p class="text-black-50">Years Experience</p>
                     </div>
                 </div>
@@ -939,23 +941,493 @@
             </div>
         </div>
     </section>
-    <section class="bg-dark py-5 mb-5">
+    <section class="bg-dark py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-6 text-white display-5 py-5 d-flex">
+                <div class="col-6 text-white display-6 py-5 d-flex">
                     <i class="fa-regular fa-envelope mt-1 me-3"></i>
                     <p>subscribe now for news</p>
                 </div>
                 <form class="col-6 mt-5">
                     <input type="email" class="border-0 rounded w-75 py-3 px-3 mt-5" placeholder="Input your mail">
-                    <button type="button" class="btn btn-primary text-white rounded-pill fs-5 py-3 px-4">
+                    <button type="button" class="btn btn-primary text-white rounded-pill fs-6 py-3 px-4">
                         Subscribe
                     </button>
                 </form>
             </div>
         </div>
     </section>
-    <section class="container"></section>
+    <section class="container">
+        <div class="owl-carousel">
+            <div>
+                <div class="card py-1">
+                    <div class="row g-0">
+                    <div class="col-md-4 px-4 py-5">
+                        <img src="images/testi-avtar-1.jpg" class="img-fluid rounded" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title text-black">jon Doe</h5>
+                        <p class="text-primary text-capitalize fs-6"> marketing manager</p>
+                        <p class="card-text text-black-50">
+                            Lorem ipsum dolor sit amet consecteturadipisicing elit. Distinctio
+                            quam aliquid tempora laborum libero rerum, architecto exercitationem cum!
+                            Recusandae nostrum et esse.
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card py-1">
+                    <div class="row g-0">
+                    <div class="col-md-4 px-4 py-5">
+                        <img src="images/testi-avtar-2.jpg" class="img-fluid rounded" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title text-black">jon Doe</h5>
+                        <p class="text-primary text-capitalize fs-6"> marketing manager</p>
+                        <p class="card-text text-black-50">
+                            Lorem ipsum dolor sit amet consecteturadipisicing elit. Distinctio
+                            quam aliquid tempora laborum libero rerum, architecto exercitationem cum!
+                            Recusandae nostrum et esse.
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card py-1">
+                    <div class="row g-0">
+                    <div class="col-md-4 px-4 py-5">
+                        <img src="images/testi-avtar-3.jpg" class="img-fluid  rounded-start rounded-end" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title text-black">jon Doe</h5>
+                        <p class="text-primary text-capitalize fs-6"> marketing manager</p>
+                        <p class="card-text text-black-50">
+                            Lorem ipsum dolor sit amet consecteturadipisicing elit. Distinctio
+                            quam aliquid tempora laborum libero rerum, architecto exercitationem cum!
+                            Recusandae nostrum et esse.
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card py-1">
+                    <div class="row g-0">
+                    <div class="col-md-4 px-4 py-5">
+                        <img src="images/testi-avtar-4.jpg" class="img-fluid rounded-start rounded-end" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title text-black">jon Doe</h5>
+                        <p class="text-primary text-capitalize fs-6"> marketing manager</p>
+                        <p class="card-text text-black-50">
+                            Lorem ipsum dolor sit amet consecteturadipisicing elit. Distinctio
+                            quam aliquid tempora laborum libero rerum, architecto exercitationem cum!
+                            Recusandae nostrum et esse.
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card py-1">
+                    <div class="row g-0">
+                    <div class="col-md-4 px-4 py-5">
+                        <img src="images/testi-avtar-5.jpg" class="img-fluid rounded" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title text-black">jon Doe</h5>
+                        <p class="text-primary text-capitalize fs-6"> marketing manager</p>
+                        <p class="card-text text-black-50">
+                            Lorem ipsum dolor sit amet consecteturadipisicing elit. Distinctio
+                            quam aliquid tempora laborum libero rerum, architecto exercitationem cum!
+                            Recusandae nostrum et esse.
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>          
+    </section>
+    <section class="bg-body-secondary py-5">
+        <section class="container">
+            <div class="row text-center my-5">
+                <div class="col-1 ms-auto">
+                    <hr class="ms-auto w-75 border border-primary opacity-100">
+                </div>
+                <h2 class="col-auto mx-0 text-capitalize display-5">latest blog</h2>
+                <div class="col-1 me-auto">
+                    <hr class="w-75 border border-primary opacity-100">
+                </div>
+                <p class="my-3 mb-4 col-9 m-auto text-black-50">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+                    incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusm dipisicing elit, sed do eiusmod tempor.
+                </p>
+            </div>
+            <div class="row g-5">
+                <div class="col-4">
+                    <div class="card px-0 shadow-lg border-0 card-hover h-100">
+                        <div class="overflow-hidden">
+                            <img src="/images/gallery2-1-360x260.png" class="card-img-top w-100 rounded-bottom-0" alt="...">
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <ul class="d-flex flex-lg-column my-auto bg-black text-white px-3 py-3
+                                        rounded-start no-boder-raduis-top h-100">
+                                            <li class="my-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-facebook-f fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-twitter fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-linkedin-in fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-google-plus-g fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-tumblr fs-5"></i>
+                                            </a></li>
+                                        </ul>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Four Ways To Cheer And Plan Your Self Up On Blue
+                                </h5>
+                                <p class="card-text text-black-50 border-end border-secondary border-opacity-75
+                                d-inline-block pe-2">
+                                    <i class="fa-regular fa-user"></i> By Dtm_demo
+                                </p>
+                                <p class="card-text text-black-50 d-inline-block ms-2">
+                                    <i class="fa-regular fa-calendar-days"></i> 19 Dec 2018
+                                </p>
+                                <div class="progress mb-3" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                                    <div class="progress-bar" style="width: 25%"></div>
+                                </div>
+                                <p class="text-black-50 ms-2">
+                                    Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo
+                                    ligauala egets dssdolor....
+                                </p>
+                                <div class="card-body card-hover-icon">
+                                    <a href="#" class="card-link link-underline link-underline-opacity-0 text-reset 
+                                    text-capitalize">
+                                    read more
+                                    </a>
+                                    <a href="#" class="card-linklink-underline link-underline-opacity-0 text-reset ms-1">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card px-0 shadow-lg border-0 card-hover h-100">
+                        <div class="overflow-hidden">
+                            <img src="/images/bg3-360x260.jpg" class="card-img-top w-100 rounded-bottom-0" alt="...">
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <ul class="d-flex flex-lg-column my-auto bg-black text-white px-3 py-3
+                                        rounded-start no-boder-raduis-top h-100">
+                                            <li class="my-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-facebook-f fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-twitter fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-linkedin-in fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-google-plus-g fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-tumblr fs-5"></i>
+                                            </a></li>
+                                        </ul>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Four Ways To Cheer And Plan Your Self Up On Blue
+                                </h5>
+                                <p class="card-text text-black-50 border-end border-secondary border-opacity-75
+                                d-inline-block pe-2">
+                                    <i class="fa-regular fa-user"></i> By Dtm_demo
+                                </p>
+                                <p class="card-text text-black-50 d-inline-block ms-2">
+                                    <i class="fa-regular fa-calendar-days"></i> 19 Dec 2018
+                                </p>
+                                <div class="progress mb-3" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                                    <div class="progress-bar" style="width: 25%"></div>
+                                </div>
+                                <p class="text-black-50 ms-2">
+                                    Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo
+                                    ligauala egets dssdolor....
+                                </p>
+                                <div class="card-body card-hover-icon">
+                                    <a href="#" class="card-link link-underline link-underline-opacity-0 text-reset 
+                                    text-capitalize">
+                                    read more
+                                    </a>
+                                    <a href="#" class="card-linklink-underline link-underline-opacity-0 text-reset ms-1">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card px-0 shadow-lg border-0 card-hover h-100">
+                        <div class="overflow-hidden">
+                            <img src="/images/bg1-360x260.jpg" class="card-img-top w-100 rounded-bottom-0" alt="...">
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <ul class="d-flex flex-lg-column my-auto bg-black text-white px-3 py-3
+                                        rounded-start no-boder-raduis-top h-100">
+                                            <li class="my-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-facebook-f fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-twitter fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-linkedin-in fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-google-plus-g fs-5"></i>
+                                            </a></li>
+                                            <li class="mb-3"><a href="" class="text-reset">
+                                                <i class="fa-brands fa-tumblr fs-5"></i>
+                                            </a></li>
+                                        </ul>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Four Ways To Cheer And Plan Your Self Up On Blue
+                                </h5>
+                                <p class="card-text text-black-50 border-end border-secondary border-opacity-75
+                                d-inline-block pe-2">
+                                    <i class="fa-regular fa-user"></i> By Dtm_demo
+                                </p>
+                                <p class="card-text text-black-50 d-inline-block ms-2">
+                                    <i class="fa-regular fa-calendar-days"></i> 19 Dec 2018
+                                </p>
+                                <div class="progress mb-3" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                                    <div class="progress-bar" style="width: 25%"></div>
+                                </div>
+                                <p class="text-black-50 ms-2">
+                                    Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo
+                                    ligauala egets dssdolor....
+                                </p>
+                                <div class="card-body card-hover-icon">
+                                    <a href="#" class="card-link link-underline link-underline-opacity-0 text-reset 
+                                    text-capitalize">
+                                    read more
+                                    </a>
+                                    <a href="#" class="card-linklink-underline link-underline-opacity-0 text-reset ms-1">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="container mt-5 pt-5">
+        <div class="row g-5">
+            <div class="col-4">
+                <img src="images/partner-slide-man.png" class="mt-5 pt-3 px-1 partner-big-image">
+            </div>
+            <div class="col-8">
+                <div class="row text-center my-5 w-100">
+                    <h2 class="col-auto mx-0 text-capitalize mt-2">meet our clients</h2>
+                    <div class="col-2 me-auto">
+                        <hr class="mb-0 w-50 border border-primary opacity-100">
+                        <hr class="w-100 border border-primary opacity-100">
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-4">
+                        <div class="border rounded border-secondary py-4">
+                            <img src="images/partner-g1.png" class="w-100 text-center px-5 partner-small-image">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="border rounded border-secondary py-3">
+                            <img src="images/partner-g2.png" class="w-100 text-center px-5 special-h">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="border rounded border-secondary py-4">
+                            <img src="images/partner-g3.png" class="w-100 text-center px-5 partner-small-image">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="border rounded border-secondary py-4">
+                            <img src="images/partner-g4.png" class="w-100 text-center px-5 partner-small-image">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="border rounded border-secondary py-4">
+                            <img src="images/partner-g5.png" class="w-100 text-center px-5 partner-small-image">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="border rounded border-secondary py-4">
+                            <img src="images/partner2.png" class="w-100 text-center px-5 partner-small-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-primary pt-1 pb-4">
+        <section class="container">
+            <div class="row g-3">
+                <div class="position-relative col-6">
+                    <i class="fa-solid fa-phone-volume big-icon mt-4 ms-4"></i>
+                    <p class="position-absolute top-50 text-white fs-4 mb-2">If You Like This Great Work ?? For You Site...</p>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn bg-white text-primary rounded-pill fs-5 py-2 px-5 mt-5
+                    spical-margin">
+                        Purchase Now
+                    </button>
+                </div>
+            </div>
+        </section>
+    </section>
+    <div>
+        <button class="scoll-button border-0 rounded-circle p-1 bg-primary text-white position-fixed special-postision"
+        id="scrollButton">
+            <a class="text-reset" href="#carouselExampleIndicators"><i class="fa-solid fa-angle-up mb-2 mx-1 fs-4"></i></a>
+        </button>
+    </div>
+    <footer class="bg-dark pt-5">
+        <section class="container">
+            <div class="row gx-5">
+                <div class="col-4 text-white">
+                    <h2 class="col-auto mx-0 text-capitalize">contact us</h2>
+                    <div class="col-2 me-auto">
+                        <hr class="w-100 border border-primary opacity-100">
+                    </div>
+                    <ul class="p-0">
+                        <li class="fs-6 my-auto ms-0">
+                            <i class="fa-solid fa-location-dot me-2"></i>
+                            123 Street Market, Life Plaza, New York
+                        </li>
+                        <li class="fs-6 my-auto ms-0">
+                            <i class="fa-solid fa-phone-volume me-2 my-3"></i> 987654321
+                        </li>
+                        <li class="fs-6 my-auto ms-0">
+                            <i class="fa-solid fa-envelope me-2"></i>
+                            team@gmail.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4 text-white">
+                    <h2 class="col-auto mx-0 text-capitalize">posts</h2>
+                    <div class="col-2 me-auto">
+                        <hr class="w-100 border border-primary opacity-100">
+                    </div>
+                    <div class="row border-bottom border-secondary pb-3 hover-footer">
+                        <img src="images/gallery2-1-360x260.png" class="col-4">
+                        <div class="col-8">
+                            <h6><a>Four ways to cheer and plan your self up on Blue</a></h6>
+                            <i class="fa-solid fa-calendar-days text-white"></i>
+                            <span class="tiny-size">December 19, 2018</span>
+                        </div>
+                    </div>
+                    <div class="row mt-3 hover-footer">
+                        <img src="images/bg3-360x260.jpg" class="col-4">
+                        <div class="col-8">
+                            <h6><a>Four ways to cheer and plan your self up on Blue</a></h6>
+                            <i class="fa-solid fa-calendar-days text-white"></i>
+                            <span class="tiny-size">December 19, 2018</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 text-white">
+                    <h2 class="col-auto mx-0 text-capitalize">popular</h2>
+                    <div class="col-2 me-auto">
+                        <hr class="w-100 border border-primary opacity-100 mb-5">
+                    </div>
+                    <div class="w-100">
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Accountancy
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Affiliate
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Branding
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Construction
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Design
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Drupal
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Education
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Graphics
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Joomla
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Marketing
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Money
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Tally
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Transform
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Website
+                        </button>
+                        <button type="button" class="btn btn-light rounded-pill mb-3 tiny-size border-0">
+                            Wordpress
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="w-100 text-center py-3 mt-2 special-shadow">
+            <a href="" class="text-primary link-underline link-underline-opacity-0">
+                &COPY; 2019 Developed By DTM Theme
+            </a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
